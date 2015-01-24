@@ -1,0 +1,10 @@
+#Dev Diary
+
+This is a collection of stuff I learn as I work. A quick reference guide for me to lookup if I encounter the problem earlier. 
+
+My memory is not serving well these days as I get older.
+
+
+* Cordova
+	* [iOS and Statusbar](cordova/statusbar.md)
+	* [iOS open external links](cordova/external-links.md)
