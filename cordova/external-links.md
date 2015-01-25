@@ -5,7 +5,7 @@ Tapping any links eg., **http / https / tel:** doesn't work as expected?
 
 ####Update config.xml
 ```
-<access origin="*"/>
+<access origin="*" />
 <access origin="tel:*" launch-external="yes" />
 ```
 
