@@ -12,6 +12,8 @@ My memory is not serving well these days as I get older.
     * In-App Purchase
         * [Creating In-App Purchase](ios/inapp/inapp-purchase.md)
         * [Creating Sandbox/Test account](ios/inapp/sandbox-account.md)
+    * Core-Data
+        * [SQL Logging](ios/coredata/coredata.md)
 * Git
     * [git cheatsheet](git/git-cheatsheet.md)
     * [git-svn cheatsheet](git/git-svn.md)
