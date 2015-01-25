@@ -9,6 +9,11 @@ My memory is not serving well these days as I get older.
 	* [iOS and Statusbar](cordova/statusbar.md)
 	* [iOS open external links](cordova/external-links.md)
 * iOS
-    * [In-App Purchase]
+    * In-App Purchase
         * [Creating In-App Purchase](ios/inapp/inapp-purchase.md)
         * [Creating Sandbox/Test account](ios/inapp/sandbox-account.md)
+* Git
+    * [git cheatsheet](git/git-cheatsheet.md)
+    * [git-svn cheatsheet](git/git-svn.md)
+* GitBook
+    * [GitBook cheatsheet](gitbook/gitbook.md)
