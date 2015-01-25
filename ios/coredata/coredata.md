@@ -7,7 +7,7 @@
 -com.apple.coredata.ubiquity.logLevel 3
 ```
 
-###Zombie enabling for premature memory release - Enviornment variable
+###Zombie enabling for debugging premature memory release - Enviornment variable
 ```
 NSZombieEnabled YES
 ```
