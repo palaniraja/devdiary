@@ -61,4 +61,4 @@ If you want to truly want to repeat the image to fit dynamic size (width x heigh
 
 * [Contents.json](https://gist.github.com/palaniraja/1bb69f78e3696fb8b46f)
 * [Sample project](https://github.com/palaniraja/buttons)
-* [Asset catalog help - Apple documentation] (https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/SlicinganImage.html)
+* [Asset catalog help - Apple documentation](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/chapters/SlicinganImage.html)

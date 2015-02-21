@@ -9,7 +9,6 @@ My memory is not serving well these days as I get older.
 	* [iOS build steps](cordova/ios.md)
 	* [iOS and Statusbar](cordova/statusbar.md)
 	* [iOS open external links](cordova/external-links.md)
-	
 * iOS
     * In-App Purchase
         * [Creating In-App Purchase](ios/inapp/inapp-purchase.md)
