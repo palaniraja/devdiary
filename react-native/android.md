@@ -64,3 +64,7 @@ seems to run curl before building apk
 
 develop menu not showing up? 
 http://stackoverflow.com/a/42008728/240255
+
+
+window.postMessage doesnt work most of the time, even if there are no js error in injectedjs. 
+Solution seems to be calling it after timeout even 1ms seems to work. 
