@@ -1,10 +1,3 @@
-#Dev Diary
-
-This is a collection of stuff I learn as I work. A quick reference guide for me to lookup if I encounter the problem earlier. 
-
-My memory is not serving well these days as I get older.
-
-
 * Cordova
 	* [iOS build steps](cordova/ios.md)
 	* [iOS and Statusbar](cordova/statusbar.md)
@@ -26,3 +19,10 @@ My memory is not serving well these days as I get older.
     * [GitBook cheatsheet](gitbook/gitbook.md)
 * Mac OS X
     * [OS X Tips](mac/mac.md)
+* React Native
+    * [Android](react-native/android.md)
+* Keyboard shortcuts
+    * [VI - Emacs](keyboard-shortcuts/vi-emacs.md)
+    * [Tmux](keyboard-shortcuts/tmux.md)
+    * [Org mode](keyboard-shortcuts/org-mode.md)
+    * [Spacemacs](keyboard-shortcuts/spacemacs.md)

@@ -1,8 +1,8 @@
-# devdiary
+#Dev Diary
 
-My dev diary, a place to host all my dev notes from stuff I learn everyday.
+This is a collection of stuff I learn. A quick reference guide for me to lookup if I encounter the problem earlier. 
 
-[Summary](SUMMARY.md)
+My memory is not serving well these days as I get older.
 
 ---
 
