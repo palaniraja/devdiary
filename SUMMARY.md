@@ -3,6 +3,8 @@
 	* [iOS and Statusbar](cordova/statusbar.md)
 	* [iOS open external links](cordova/external-links.md)
 * iOS
+    * Apple Pay
+        * [Apple Pay Integration steps](ios/applepay/applepay.md)
     * In-App Purchase
         * [Creating In-App Purchase](ios/inapp/inapp-purchase.md)
         * [Creating Sandbox/Test account](ios/inapp/sandbox-account.md)
