@@ -5,8 +5,6 @@
 
 ### Steps
 
-`Note: I missed the step to call webservice with stripe token and process the payment, will update shortly`
-
 ![Steps](images/apple-pay.png)
 
 #### Links
