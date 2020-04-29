@@ -1,4 +1,4 @@
-##Steps to create a new In-App Purchase
+## Steps to create a new In-App Purchase
 
  ![iTunesConnect Login](images/1.itunesconnect-login.png)
 
@@ -17,7 +17,7 @@
  ![You can edit the summary later too](images/6.3-edit-summary.png)
 
 
-####This is how it should looks once done
+#### This is how it should looks once done
 ![Once done it should look like this](images/6.4 final.png)
 
 

@@ -1,4 +1,4 @@
-##TMUX 
+## TMUX 
 
 * Default prefix : Ctrl-b 
 * My Prefix: ` (backtick)

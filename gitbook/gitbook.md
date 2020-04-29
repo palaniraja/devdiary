@@ -1,4 +1,4 @@
-###Links
+### Links
 * (https://github.com/GitbookIO/gitbook)
 
 ```
@@ -9,12 +9,12 @@ $ gitbook build ./repository --output=./outputFolder
 
 ```
 
-###Generate book
+### Generate book
 ```
 gitbook pdf|epub|mobi ./myrepo
 ```
 
-###SUMMARY.md
+### SUMMARY.md
 ```
 # Summary
 

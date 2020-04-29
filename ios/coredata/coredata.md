@@ -1,13 +1,13 @@
-##Coredata
+## Coredata
 
-###Scheme variable to see the SQLite queries in log
+### Scheme variable to see the SQLite queries in log
 ```
 -com.apple.CoreData.SQLDebug 1
 
 -com.apple.coredata.ubiquity.logLevel 3
 ```
 
-###Zombie enabling for debugging premature memory release - Enviornment variable
+### Zombie enabling for debugging premature memory release - Enviornment variable
 ```
 NSZombieEnabled YES
 ```

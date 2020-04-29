@@ -1,4 +1,4 @@
-###Links
+### Links
 
 * http://www.viget.com/extend/effectively-using-git-with-subversion/
 * http://flavio.castelli.name/howto_use_git_with_svn
@@ -7,7 +7,7 @@
 * http://brandon.dimcheff.com/2009/01/04/commit-a-linear-git-history-to-subversion.html
 
 
-###Git-SVN
+### Git-SVN
 ```
 git svn clone -s [url_to_svn_repository] [project_name]
 git branch -a #show all branches local(git) and remote(svn)
@@ -31,7 +31,7 @@ git svn dcommit # push your local git commits to svn repository
 ```
 
 
-###SourceTree log
+### SourceTree log
 
 ```
 git -c diff.mnemonicprefix=false -c core.quotepath=false -c credential.helper=sourcetree fetch origin 
@@ -44,7 +44,7 @@ git pull --rebase origin master
 
 ```
 
-###Get modified files only
+### Get modified files only
 
 ```
 git archive --output=<file> HEAD $(git diff --name-only ...)

@@ -1,4 +1,4 @@
-android 4.4
+# android 4.4
 
 
 had this issue - https://github.com/facebook/react-native/issues/12055 but chmod +x to gradle didn’t work
@@ -6,7 +6,7 @@ had this issue - https://github.com/facebook/react-native/issues/12055 but chmod
 then this - https://github.com/facebook/react-native/issues/11767
 
 
-react-native run-android --configuration Release
+`react-native run-android --configuration Release`
 
 did not work, complains gradle build version
 +
@@ -14,7 +14,7 @@ did not work, complains gradle build version
 
 
 
-react-native run-android --configuration=release
+`react-native run-android --configuration=release`
 
 
 normal build - ENOENT: no such file or directory, open 'android/app/src/main/assets/index.android.bundle'
@@ -45,20 +45,25 @@ Error: more than one library with package name 'com.keyee.pdfview'
 
 commented default pdf-view
 
+```
 Arrays.<ReactPackage>asList(
 
 :app:compileDebugJavaWithJavac FAILED
 
-add missing imports in mainactivity.java from example
+````
+
+add missing imports in `mainactivity.java` from example
 
 
 stuck with 
 
+```
 npm install react-native-fs --save
+```
 following RNFS also failed
 
 
-remove @override from getPackages seems to remove the @override error
+remove `@override` from `getPackages` seems to remove the `@override` error
 
 seems to run curl before building apk
 
@@ -66,5 +71,6 @@ develop menu not showing up?
 http://stackoverflow.com/a/42008728/240255
 
 
-window.postMessage doesnt work most of the time, even if there are no js error in injectedjs. 
-Solution seems to be calling it after timeout even 1ms seems to work. 
+`window.postMessage` doesnt work most of the time, even if there are no js error in injectedjs. 
+
+Solution seems to be calling it after `timeOut` even `1ms` seems to work. 

@@ -1,9 +1,10 @@
 
-###Links
+### Links
 
     * http://help.github.com/git-cheat-sheets/
     * http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/
 
+### Common commands 
 ```
 
 git checkout <sha>
@@ -61,13 +62,13 @@ git reset --hard HEAD@{6}
 
 ```
 
-###version history of a file
+### Version history of a file
 ```
 gitk images/backgroundBG.png
 git blame filename
 ```
 
-###GIT markings
+### GIT markings
 ```
 <<<<<<< HEAD
 =======
@@ -75,7 +76,7 @@ git blame filename
 ```
 
 
-###Find commits not available in master and branch
+### Find commits not available in master and branch
 
 ```
 git cherry -v <master> <branchname>
@@ -84,7 +85,7 @@ Diff3 style conflict
 git config --global merge.conflictstyle diff3
 ```
 
-###Remove stash /discard unstaged changes
+### Remove stash /discard unstaged changes
 ```
 git clean -df
 or
@@ -94,7 +95,7 @@ git checkout -- .
 
 
 
-###Abort/clear Merge action when conflict:
+### Abort/clear Merge action when conflict:
 ```
 git reset --hard HEAD
 git reset --merge
@@ -105,7 +106,7 @@ git merge -Xtheirs develop
 
 ```
 
-###Github - fetch changes in parent repo
+### Github - fetch changes in parent repo
 ```
 $ git remote add upstream git://github.com/user/origrepo.git
 $ git fetch upstream
@@ -118,7 +119,7 @@ $ git merge upstream/master master
 $ git rebase upstream/master
 ```
 
-###Github Pages
+### Github Pages
 
 ```
 git checkout gh-pages // go to the gh-pages branch
@@ -127,13 +128,13 @@ git push origin gh-pages // commit the changes
 git checkout master // return to the master branch
 ```
 
-###To get modified list between two commit
+### To get modified list between two commit
 ```
 git diff --name-only 36d61563 0d1294e
 git diff --name-status 36d61563 0d1294e
 ```
 
-###Export to get all the modified files between two commit in tar file (zip)
+### Export to get all the modified files between two commit in tar file (zip)
 ```
 git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $commit_id | xargs tar -rf mytarfile.tar
 
