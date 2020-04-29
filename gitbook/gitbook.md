@@ -5,7 +5,7 @@
 $ npm install -g gitbook-cli
 $ gitbook init
 $ gitbook serve ./repository
-$ gitbook build ./repository --output=./outputFolder
+$ gitbook build ./repository ./outputFolder
 
 ```
 
