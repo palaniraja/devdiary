@@ -7,7 +7,7 @@
         <title>Android · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -605,14 +605,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>android 4.4</p>
+                                <h1 id="android-44">android 4.4</h1>
 <p>had this issue - <a href="https://github.com/facebook/react-native/issues/12055" target="_blank">https://github.com/facebook/react-native/issues/12055</a> but chmod +x to gradle didn&#x2019;t work</p>
 <p>then this - <a href="https://github.com/facebook/react-native/issues/11767" target="_blank">https://github.com/facebook/react-native/issues/11767</a></p>
-<p>react-native run-android --configuration Release</p>
+<p><code>react-native run-android --configuration Release</code></p>
 <p>did not work, complains gradle build version
 +
 &#x201C;task installRelease not found in app&#x201D;</p>
-<p>react-native run-android --configuration=release</p>
+<p><code>react-native run-android --configuration=release</code></p>
 <p>normal build - ENOENT: no such file or directory, open &apos;android/app/src/main/assets/index.android.bundle&apos;</p>
 <p>fix by creating a folder manually &#x201C;assets&#x201D; in folder and run curl to create the bundle</p>
 <p>by following - <a href="http://stackoverflow.com/a/32621060/240255" target="_blank">http://stackoverflow.com/a/32621060/240255</a></p>
@@ -625,18 +625,21 @@
 <p><a href="http://stackoverflow.com/a/33384263/240255" target="_blank">http://stackoverflow.com/a/33384263/240255</a></p>
 <p>Error: more than one library with package name &apos;com.keyee.pdfview&apos;</p>
 <p>commented default pdf-view</p>
-<p>Arrays.<reactpackage>asList(</reactpackage></p>
-<p>:app:compileDebugJavaWithJavac FAILED</p>
-<p>add missing imports in mainactivity.java from example</p>
+<pre><code>Arrays.&lt;ReactPackage&gt;asList(
+
+:app:compileDebugJavaWithJavac FAILED
+
+`
+</code></pre><p>add missing imports in <code>mainactivity.java</code> from example</p>
 <p>stuck with </p>
-<p>npm install react-native-fs --save
-following RNFS also failed</p>
-<p>remove @override from getPackages seems to remove the @override error</p>
+<pre><code>npm install react-native-fs --save
+</code></pre><p>following RNFS also failed</p>
+<p>remove <code>@override</code> from <code>getPackages</code> seems to remove the <code>@override</code> error</p>
 <p>seems to run curl before building apk</p>
 <p>develop menu not showing up? 
 <a href="http://stackoverflow.com/a/42008728/240255" target="_blank">http://stackoverflow.com/a/42008728/240255</a></p>
-<p>window.postMessage doesnt work most of the time, even if there are no js error in injectedjs. 
-Solution seems to be calling it after timeout even 1ms seems to work. </p>
+<p><code>window.postMessage</code> doesnt work most of the time, even if there are no js error in injectedjs. </p>
+<p>Solution seems to be calling it after <code>timeOut</code> even <code>1ms</code> seems to work. </p>
 
                                 
                                 </section>
@@ -672,7 +675,7 @@ Solution seems to be calling it after timeout even 1ms seems to work. </p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Android","level":"1.7.1","depth":2,"next":{"title":"Keyboard shortcuts","level":"1.8","depth":1,"ref":"","articles":[{"title":"VI - Emacs","level":"1.8.1","depth":2,"path":"keyboard-shortcuts/vi-emacs.md","ref":"keyboard-shortcuts/vi-emacs.md","articles":[]},{"title":"Tmux","level":"1.8.2","depth":2,"path":"keyboard-shortcuts/tmux.md","ref":"keyboard-shortcuts/tmux.md","articles":[]},{"title":"Org mode","level":"1.8.3","depth":2,"path":"keyboard-shortcuts/org-mode.md","ref":"keyboard-shortcuts/org-mode.md","articles":[]},{"title":"Spacemacs","level":"1.8.4","depth":2,"path":"keyboard-shortcuts/spacemacs.md","ref":"keyboard-shortcuts/spacemacs.md","articles":[]}]},"previous":{"title":"React Native","level":"1.7","depth":1,"ref":"","articles":[{"title":"Android","level":"1.7.1","depth":2,"path":"react-native/android.md","ref":"react-native/android.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga"],"pluginsConfig":{"ga":{"token":"UA-53660277-2"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react-native/android.md","mtime":"2017-05-07T15:11:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-09T14:43:38.902Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Android","level":"1.7.1","depth":2,"next":{"title":"Keyboard shortcuts","level":"1.8","depth":1,"ref":"","articles":[{"title":"VI - Emacs","level":"1.8.1","depth":2,"path":"keyboard-shortcuts/vi-emacs.md","ref":"keyboard-shortcuts/vi-emacs.md","articles":[]},{"title":"Tmux","level":"1.8.2","depth":2,"path":"keyboard-shortcuts/tmux.md","ref":"keyboard-shortcuts/tmux.md","articles":[]},{"title":"Org mode","level":"1.8.3","depth":2,"path":"keyboard-shortcuts/org-mode.md","ref":"keyboard-shortcuts/org-mode.md","articles":[]},{"title":"Spacemacs","level":"1.8.4","depth":2,"path":"keyboard-shortcuts/spacemacs.md","ref":"keyboard-shortcuts/spacemacs.md","articles":[]}]},"previous":{"title":"React Native","level":"1.7","depth":1,"ref":"","articles":[{"title":"Android","level":"1.7.1","depth":2,"path":"react-native/android.md","ref":"react-native/android.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga"],"pluginsConfig":{"ga":{"token":"UA-53660277-2"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"react-native/android.md","mtime":"2020-04-29T05:54:23.333Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-29T06:30:19.081Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

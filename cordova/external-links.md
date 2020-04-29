@@ -1,20 +1,21 @@
-###External links
+### External links
 
 Tapping any links eg., **http / https / tel:** doesn't work as expected?
 
+#### Update config.xml
 
-####Update config.xml
 ```
 <access origin="*" />
 <access origin="tel:*" launch-external="yes" />
 ```
 
-####Add target blank in links
+#### Add target blank in links
+
 ```
 <a href="http://outgoingdomain.com/links/" target="_blank"></a>
 ```
 
-####Edit MainViewController.m file
+#### Edit MainViewController.m file
 ```
 - (BOOL)webView:(UIWebView *)theWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {

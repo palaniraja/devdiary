@@ -7,7 +7,7 @@
         <title>GitBook cheatsheet · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.3">
         
         
         
@@ -609,23 +609,26 @@
 <ul>
 <li>(<a href="https://github.com/GitbookIO/gitbook" target="_blank">https://github.com/GitbookIO/gitbook</a>)</li>
 </ul>
-<pre><code>$ npm install gitbook -g
+<pre><code class="lang-shell">$ npm install -g gitbook-cli
 $ gitbook init
 $ gitbook serve ./repository
 $ gitbook build ./repository --output=./outputFolder
-</code></pre><h3 id="generate-book">Generate book</h3>
-<pre><code>gitbook pdf|epub|mobi ./myrepo
-</code></pre><h3 id="summarymd">SUMMARY.md</h3>
-<pre><code># Summary
+</code></pre>
+<h3 id="generate-book">Generate book</h3>
+<pre><code class="lang-shell">gitbook pdf|epub|mobi ./myrepo
+</code></pre>
+<h3 id="summarymd">SUMMARY.md</h3>
+<pre><code class="lang-markdown"><span class="hljs-section"># Summary</span>
 
 This is the summary of my book.
 
-* [section 1](section1/README.md)
-    * [example 1](section1/example1.md)
-    * [example 2](section1/example2.md)
-* [section 2](section2/README.md)
-    * [example 1](section2/example1.md)
+<span class="hljs-bullet">* </span>[<span class="hljs-string">section 1</span>](<span class="hljs-link">section1/README.md</span>)
+<span class="hljs-code">    * [example 1](section1/example1.md)</span>
+<span class="hljs-code">    * [example 2](section1/example2.md)</span>
+<span class="hljs-bullet">* </span>[<span class="hljs-string">section 2</span>](<span class="hljs-link">section2/README.md</span>)
+<span class="hljs-code">    * [example 1](section2/example1.md)</span>
 </code></pre>
+
                                 
                                 </section>
                             
@@ -660,7 +663,7 @@ This is the summary of my book.
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitBook cheatsheet","level":"1.5.1","depth":2,"next":{"title":"Mac OS X","level":"1.6","depth":1,"ref":"","articles":[{"title":"OS X Tips","level":"1.6.1","depth":2,"path":"mac/mac.md","ref":"mac/mac.md","articles":[]}]},"previous":{"title":"GitBook","level":"1.5","depth":1,"ref":"","articles":[{"title":"GitBook cheatsheet","level":"1.5.1","depth":2,"path":"gitbook/gitbook.md","ref":"gitbook/gitbook.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga"],"pluginsConfig":{"ga":{"token":"UA-53660277-2"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gitbook/gitbook.md","mtime":"2017-05-07T15:11:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-09T14:43:38.902Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GitBook cheatsheet","level":"1.5.1","depth":2,"next":{"title":"Mac OS X","level":"1.6","depth":1,"ref":"","articles":[{"title":"OS X Tips","level":"1.6.1","depth":2,"path":"mac/mac.md","ref":"mac/mac.md","articles":[]}]},"previous":{"title":"GitBook","level":"1.5","depth":1,"ref":"","articles":[{"title":"GitBook cheatsheet","level":"1.5.1","depth":2,"path":"gitbook/gitbook.md","ref":"gitbook/gitbook.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga"],"pluginsConfig":{"ga":{"token":"UA-53660277-2"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"gitbook/gitbook.md","mtime":"2020-04-29T06:28:15.713Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-29T06:30:19.081Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
